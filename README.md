@@ -32,7 +32,7 @@ http://prag.ma/code/d3-cartogram/#intlmig/2011
 
 ![d3examples](img/d3examples.JPG)
 
-
+The code above lists the data used to generate the cartogram. Birth rates, death rates, migration, etc. are all found within the data csv file.
 
 This d3 javascrpit library uses the Rubber Sheet Distortion method to create an area contiguous cartogram that preserves shape with distortion as well as preserving topology, although that is not guaranteed. 
 
