@@ -30,7 +30,7 @@ http://prag.ma/code/d3-cartogram/#intlmig/2011
 
 ![d2carto](img/d2carto.JPG)
 
-![d3examples](img\d3examples.JPG)
+![d3examples](img/d3examples.JPG)
 
 
 
