@@ -14,7 +14,7 @@ A cartogram is thematic map that displays a variable as a size or distance. Thes
 
 This is an example area cartogram showing the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have. 
 
-![o2cart](C:\Oregon State\OSU 2016-2017\Spring Term 2017\GEOG 472\cartogram\img\o2cart.png)
+![o2cart](Cartogram-Presentation/img/o2cart.png)
 
 *Source: https://digitalhumanities.stanford.edu/projects/orbis*
 
