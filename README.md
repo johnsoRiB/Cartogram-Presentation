@@ -14,22 +14,26 @@ There are several types of cartograms that handle geometric distortion in a vari
 
 Contiguous cartograms preserve shape contact, or neighborhood, by simultaneiously skewing the shape geometry and size.
 
-|This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes |they have.
+This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have.
 ![cartogramUSelection_SongGao](img/cartogramUSelection_SongGao.jpg)
 *Source: http://stko.geog.ucsb.edu/node/11*
 
-
+This is a distance cartogram showing dynamic distance cartograms from any point, using any vehicle, mode, or time of year settings. For instance, the above cartogram from Carthago Nova. Cartograms can be run by clicking on sites or via a Cartogram tab that provides the same kind of interface as routes.
 ![o2cart](img/o2cart.png)
-
 *Source: https://digitalhumanities.stanford.edu/projects/orbis*
 
-This is a distance cartogram showing dynamic distance cartograms from any point, using any vehicle, mode, or time of year settings. For instance, the above cartogram from Carthago Nova. Cartograms can be run by clicking on sites or via a Cartogram tab that provides the same kind of interface as routes.
+
+## 3. Non-Contiguous Cartograms
+
+Non-contiguous cartograms do not require shapes to preserve neighborhood. In other words, the shapes scale independently and no not touch either.
+
+This cartogram, published by The New York Times, shows how much an individual's vote affects the electoral college, for each state. Note that a state's geometry is preserved as its size changes.
+![non-continuous-nytimes.png](img/non-continuous-nytimes.png)
+*Source: http://www.nytimes.com/interactive/2008/11/02/opinion/20081102_OPCHART.html
 
 
 
-
-
-## 3. Cartograms using d3 & Topojson
+## 4. Cartograms using d3 & Topojson
 
 http://prag.ma/code/d3-cartogram/#intlmig/2011
 
