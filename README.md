@@ -2,17 +2,23 @@
 
 > Spring 2017 | Geography 472/572 | Geovisualization: Geovisual Analytics
 >
-> By: Nicholas Matthews and Riley Johnson
+> By: Nick Mathews and Riley Johnson
 
-## 1. What is a Cartogram
+## 1. What is a Cartogram?
 
-A cartogram is thematic map that displays a variable as a size or distance. These variables can be things like socio-economic factors, population, or other. Then geometric space of the map is then distorted to display the data proportionally.
+A cartogram is a thematic map that displays a variable as a size or distance. Cartograms can represent socio-economic, population, or other types of variables by distoring geometric space of the map. This distortion is intended to represent the variable data proportioinally.
 
+There are several types of cartograms that handle geometric distortion and  in a variety of ways.
+
+## 2. Contiguous Cartograms
+
+Contiguous cartograms preserve shape contact, or neighborhood, by simultaneiously skewing the shapes' geometries while altering their size.
+
+This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have. 
 ![cartogramUSelection_SongGao](img/cartogramUSelection_SongGao.jpg)
 
 *Source: http://stko.geog.ucsb.edu/node/11*
 
-This is an example area cartogram showing the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have. 
 
 ![o2cart](img/o2cart.png)
 
@@ -24,7 +30,7 @@ This is a distance cartogram showing dynamic distance cartograms from any point,
 
 
 
-## 2. Cartograms using d3 & Topojson
+## 3. Cartograms using d3 & Topojson
 
 http://prag.ma/code/d3-cartogram/#intlmig/2011
 
