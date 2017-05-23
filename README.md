@@ -1,4 +1,4 @@
-# Cartogram
+# Cartograms
 
 > Spring 2017 | Geography 472/572 | Geovisualization: Geovisual Analytics
 >
@@ -35,24 +35,24 @@ This is an example of a Dorling cartogram. In this map, published by the Huffing
 ![dorling](img/dorling.png)
 *Source: http://elections.huffingtonpost.com/2012/romney-vs-obama-electoral-map#cartogram*
 
-## 4. Cartograms using d3 & Topojson
+## 4. Cartograms Using d3 & Topojson
 
+The following code lists the data used to generate the cartogram. Birth rates, death rates, migration, etc. are all found within the data csv file.
 http://prag.ma/code/d3-cartogram/#intlmig/2011
 
 ![d2carto](img/d2carto.JPG)
 
 ![d3examples](img/d3examples.JPG)
 
-The code above lists the data used to generate the cartogram. Birth rates, death rates, migration, etc. are all found within the data csv file.
-
 This d3 javascrpit library uses the Rubber Sheet Distortion method to create an area contiguous cartogram that preserves shape with distortion as well as preserving topology, although that is not guaranteed. 
-
-
 
 The d3 library works by using a topojson to decocode topojson-encoded topologies. Takes topojson files converts them to another topojson that then is projected into the equal area map projection wit  the new distortion from the cartogram libraries algorithm.
 
-
-
+This is the github repository where d3 cartogram can be downloaded from:
 *Source: https://github.com/shawnbot/topogram*
 
-This is the github repository where d3 cartogram can be downloaded from.
+## References:
+
+[1] http://www.ncgia.ucsb.edu/projects/Cartogram_Central/types.html
+
+[2] http://www.viz.tamu.edu/faculty/house/cartograms/Chapt-02.PDF
