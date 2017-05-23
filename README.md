@@ -6,17 +6,16 @@
 
 ## 1. What is a Cartogram?
 
-A cartogram is a thematic map that displays a variable as a size or distance. Cartograms can represent socio-economic, population, or other types of variables by distoring geometric space of the map. This distortion is intended to represent the variable data proportioinally.
+A cartogram is a thematic map that displays a variable as a spacial dimension. Cartograms can represent socio-economic, population, or other types of variables by the distoring geometric space of a map. This distortion is intended to represent the variable data proportionally.
 
-There are several types of cartograms that handle geometric distortion and  in a variety of ways.
+There are several types of cartograms that handle geometric distortion in a variety of ways. In general, some geometric quality of a cartogram will be preserved to achieve the desired aesthetic, such as: perimeter, neighborhood, or a combination of the two. 
 
 ## 2. Contiguous Cartograms
 
-Contiguous cartograms preserve shape contact, or neighborhood, by simultaneiously skewing the shapes' geometries while altering their size.
+Contiguous cartograms preserve shape contact, or neighborhood, by simultaneiously skewing the shape geometry and size.
 
-This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have. 
+- This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have. 
 ![cartogramUSelection_SongGao](img/cartogramUSelection_SongGao.jpg)
-
 *Source: http://stko.geog.ucsb.edu/node/11*
 
 
