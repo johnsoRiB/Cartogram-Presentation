@@ -14,7 +14,7 @@ There are several types of cartograms that handle geometric distortion in a vari
 
 Contiguous cartograms preserve shape contact, or neighborhood, by simultaneiously skewing the shape geometry and size.
 
-- This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes they have. 
+|This example area cartogram shows the 2012 Presidential Election results. Each state is scaled relative to the number of electoral votes |they have.
 ![cartogramUSelection_SongGao](img/cartogramUSelection_SongGao.jpg)
 *Source: http://stko.geog.ucsb.edu/node/11*
 
