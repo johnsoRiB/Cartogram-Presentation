@@ -28,7 +28,7 @@ This is a distance cartogram showing dynamic distance cartograms from any point,
 Non-contiguous cartograms do not require shapes to preserve neighborhood. In other words, the shapes scale independently and no not touch either.
 
 This cartogram, published by The New York Times, shows how much an individual's vote affects the electoral college, for each state. Note that a state's geometry is preserved as its size changes.
-![non-continuous-nytimes.png](img/non-continuous-nytimes.png)
+![non-contiguous-nytimes.png](img/non-contiguous-nytimes.png)
 *Source: http://www.nytimes.com/interactive/2008/11/02/opinion/20081102_OPCHART.html
 
 
