@@ -31,6 +31,8 @@ This cartogram, published by The New York Times, shows how much an individual's 
 ![non-contiguous-nytimes.png](img/non-contiguous-nytimes.png)
 *Source: http://www.nytimes.com/interactive/2008/11/02/opinion/20081102_OPCHART.html*
 
+### 3.1 Dorling Cartogram
+
 This is an example of a Dorling cartogram. In this map, published by the Huffington post, states have been replaced with circles and scaled to represent electoral votes.
 ![dorling](img/dorling.png)
 *Source: http://elections.huffingtonpost.com/2012/romney-vs-obama-electoral-map#cartogram*
